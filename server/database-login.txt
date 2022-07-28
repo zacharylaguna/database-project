@@ -1,6 +1,13 @@
+# if aurora
 user=postgres
 pass=OsRwuPYJC0jsj0TnGNur
 endpoint=real-mgmt-1.cluster-cfa8nnooilud.us-east-2.rds.amazonaws.com
+port=5432
+
+# if postgres
+user=postgres
+pass=sUbQBVBol5sI23zGQwHt
+endpoint=real-mgmt-pg-1.cfa8nnooilud.us-east-2.rds.amazonaws.com
 port=5432
 
 might need to change 'public accessibility' security policy 
@@ -8,3 +15,5 @@ to private after development to restrict access to ec2 instance access only
 (host web app on ec2)
 
 Changed the VPC settings to allow all connections through IPv4 and IPv6
+
+sUbQBVBol5sI23zGQwHt
