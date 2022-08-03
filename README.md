@@ -1,33 +1,62 @@
 # real-mgmt
 
+### client
 create the react app (already completed)
 ```
-npx create-react-app my-app
+npx create-react-app client
 ```
 
-start the react app
+Getting started
 ```
-cd my-app
+cd client
+npm i
+```
+
+To run the react app
+```
+cd client
 npm start
 ```
 
-start a react app (already completed)
+### server
+
+Getting started
 ```
-npx create-react-app my-app
-cd my-app
-npm start
+cd server
+npm i
 ```
 
-useful resources
-https://www.youtube.com/watch?v=ldYcgPKEZC8&t=1114s
-https://stackabuse.com/using-aws-rds-with-node-js-and-express-js/
-https://www.youtube.com/watch?v=NjYsXuSBZ5U&t=1s
-https://www.youtube.com/watch?v=XDMgXZUfa10
-
-How to add to GitHub
+To run the server
 ```
-(add ssh keys)
+node index.js
+```
+
+To make new package.json
+```
+npm init
+```
+
+## Commit to GitHub
+Before pulling for the first time, authenticate with GitHub via SSH or through the VS Code prompts.
+```bash
+cd <root directory with client and server>
 git add *
 git commit -m "message"
-git push git@github.com:zacharylaguna/real-mgmt.git
+git push
 ```
+
+## Connect directly to the hosted database
+Connecting directly to the database is useful when creating tables for the first time or debugging applications that interact with the database.
+```bash
+psql --host=real-mgmt-pg-1.cfa8nnooilud.us-east-2.rds.amazonaws.com --port=5432 --username=postgres --password --dbname=real-mgmt
+```
+Learn more at the [RDS documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ConnectToPostgreSQLInstance.html).
+
+## Useful resources
+- https://www.youtube.com/watch?v=ldYcgPKEZC8&t=1114s
+- https://stackabuse.com/using-aws-rds-with-node-js-and-express-js/
+- https://www.youtube.com/watch?v=NjYsXuSBZ5U&t=1s
+- https://www.youtube.com/watch?v=XDMgXZUfa10
+- https://reactrouter.com/docs/en/v6/getting-started/overview
+- https://mherman.org/blog/dockerizing-a-react-app/
+- https://www.freecodecamp.org/news/how-to-use-axios-with-react/#how-to-make-a-get-request

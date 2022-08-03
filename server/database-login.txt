@@ -3,12 +3,14 @@ user=postgres
 pass=OsRwuPYJC0jsj0TnGNur
 endpoint=real-mgmt-1.cluster-cfa8nnooilud.us-east-2.rds.amazonaws.com
 port=5432
+database=real-mgmt-db
 
 # if postgres
 user=postgres
 pass=sUbQBVBol5sI23zGQwHt
 endpoint=real-mgmt-pg-1.cfa8nnooilud.us-east-2.rds.amazonaws.com
 port=5432
+database=real-mgmt
 
 might need to change 'public accessibility' security policy 
 to private after development to restrict access to ec2 instance access only
