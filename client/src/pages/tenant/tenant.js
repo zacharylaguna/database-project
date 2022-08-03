@@ -5,7 +5,7 @@ import axios from 'axios';
 export default function Tenant() {
     const [data, setData] = useState(null);
 
-    const basePath = 'http://localhost:4000/';
+    const basePath = 'http://3.144.236.47:80/';
     const tenantUsername = 'cdarwin';
 
     // run on first load of page

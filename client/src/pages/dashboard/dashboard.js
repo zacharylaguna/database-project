@@ -8,7 +8,8 @@ export default function Dashboard() {
 
     const [properties, setProperties] = useState(null);
 
-    const baseurl = 'http://localhost:4000/'
+    // const baseurl = 'http://localhost:4000/'
+    const baseurl = 'http://3.144.236.47:80/'
 
     // run on first load of page
     React.useEffect(() => {
