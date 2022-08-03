@@ -6,7 +6,7 @@ export default function Contractor() {
 
     const [data, setData] = useState(null);
 
-    const baseurl = 'http://3.144.236.47:80/'
+    const baseurl = 'http://localhost:4000/'
 
     // run on first load of page
     React.useEffect(() => {

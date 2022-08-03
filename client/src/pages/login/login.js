@@ -7,7 +7,7 @@ import axios from 'axios'
 
 
 async function loginUser(credentials) {
-  const url = "http://3.144.236.47:80/login/" + credentials[0] + "/" + credentials[1];
+  const url = "http://localhost:4000/login/" + credentials[0] + "/" + credentials[1];
   const response = await axios.get(url);
   return response.data;
 
