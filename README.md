@@ -1,39 +1,64 @@
-# real-mgmt
+Zachary Laguna
+Ernest Villafana
+Jack Butler
+Walker Drury
+Kyle Blanco
 
-### client
-create the react app (already completed)
+# Real management
+
+### Client
+Create the react app (already completed)
 ```
 npx create-react-app client
 ```
 
 Getting started
-```
+```bash
 cd client
 npm i
 ```
 
 To run the react app
-```
+```bash
 cd client
 npm start
 ```
 
-### server
+### Server
 
 Getting started
-```
+```bash
 cd server
 npm i
 ```
 
 To run the server
-```
+```bash
 node index.js
 ```
 
 To make new package.json
-```
+```bash
 npm init
+```
+
+## Example login
+### Manager
+```
+Username: inewton
+Password: 123
+```
+
+### Tenant
+```
+Username: cdarwin
+Password: 123
+```
+
+### Contractor
+```
+Username: kjenson
+Password: 123
 ```
 
 ## Commit to GitHub

@@ -1,7 +1,7 @@
 /* a dashboard Block */
 
-.dashboard {
-    h2 {
-        color: black;
-    }
-} /* block */
+.dashboard form .row label {
+    text-transform: capitalize;
+    margin-top: 15px;
+    margin-bottom:5px;
+}
