@@ -1,8 +1,8 @@
-#Zachary Laguna
-#Ernest Villafana
-#Jack Butler
-#Walker Drury
-#Kyle Blanco
+# Zachary Laguna
+# Ernest Villafana
+# Jack Butler
+# Walker Drury
+# Kyle Blanco
 
 # Real management
 
