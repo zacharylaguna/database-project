@@ -1,9 +1,9 @@
 const Pool = require("pg").Pool;
 
 const pool = new Pool({
-    host     : 'real-mgmt-pg-1.cfa8nnooilud.us-east-2.rds.amazonaws.com',
+    host     : 'dev-database.cfa8nnooilud.us-east-2.rds.amazonaws.com',
     user     : 'postgres',
-    password : 'sUbQBVBol5sI23zGQwHt',
+    password : 'Kbt2dDjlynYb1zvMHT2C',
     port     : '5432',
     database : "real-mgmt"
 });
