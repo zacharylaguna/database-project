@@ -5,7 +5,7 @@ import axios from 'axios';
 export default function Tenant() {
     const [data, setData] = useState();
 
-    const basePath = 'http://localhost:4000/';
+    const basePath = 'http://3.17.248.106:4000/';
 
     const token = sessionStorage.getItem("token");
     const username = sessionStorage.getItem("username");

@@ -1,0 +1,21 @@
+Mon, 09 Jan 2023 06:53:17 GMT body-parser deprecated undefined extended: provide extended option at server/index.js:9:17
+Server is running on port 4000
+connected to the DB
+node:events:342
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/home/ec2-user/real-mgmt/server/node_modules/pg/lib/client.js:132:73)
+    at Object.onceWrapper (node:events:471:28)
+    at Connection.emit (node:events:365:28)
+    at Socket.<anonymous> (/home/ec2-user/real-mgmt/server/node_modules/pg/lib/connection.js:107:12)
+    at Socket.emit (node:events:377:35)
+    at endReadableNT (node:internal/streams/readable:1312:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on Client instance at:
+    at Client._handleErrorEvent (/home/ec2-user/real-mgmt/server/node_modules/pg/lib/client.js:319:10)
+    at Connection.<anonymous> (/home/ec2-user/real-mgmt/server/node_modules/pg/lib/client.js:149:16)
+    at Object.onceWrapper (node:events:471:28)
+    [... lines matching original stack trace ...]
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)

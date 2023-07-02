@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios'
 
-const urlBody = "http://localhost:4000";
+const urlBody = "http://3.17.248.106:4000";
 
 async function loginUser(credentials) {
   const url = urlBody + "/login/" + credentials[0] + "/" + credentials[1];

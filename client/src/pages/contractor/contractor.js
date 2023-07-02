@@ -24,7 +24,7 @@ export default function Contractor() {
     const [hourlyRate, setHourlyRate] = useState();
     const [contractorStatus, setContractorStatus] = useState();
 
-    const baseurl = 'http://localhost:4000/'
+    const baseurl = 'http://3.17.248.106:4000/'
 
     const currentUsername = sessionStorage.getItem('username');
 
