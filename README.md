@@ -7,6 +7,9 @@
 # Real management
 
 sudo bash real-mgmt/run-background.sh
+web: http://3.17.248.106:3000/
+app: http://3.17.248.106:4000/
+
 
 ### Client
 Create the react app (already completed)
