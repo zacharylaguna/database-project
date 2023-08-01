@@ -6,6 +6,8 @@
 
 # Real management
 
+sudo bash real-mgmt/run-background.sh
+
 ### Client
 Create the react app (already completed)
 ```
