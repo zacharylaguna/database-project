@@ -1,3 +1,0 @@
-Tue, 01 Aug 2023 06:24:01 GMT body-parser deprecated undefined extended: provide extended option at server/index.js:9:17
-Server is running on port 4000
-connected to the DB
